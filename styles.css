@@ -59,11 +59,34 @@ body {
 }
 
 body {
-  animation: scroll-once 5s ease-in-out;
+  animation: scroll-once 5s ease-in-out forwards;
   animation-delay: 4s;
+  animation-iteration-count: 1;
 }
 
 @keyframes scroll-once {
   0% { transform: translateY(0); }
   100% { transform: translateY(-200vh); }
+}
+
+.warriors-homepage {
+    background-color: white;
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    min-height: 100vh;
+    margin-top: 100vh;
+}
+
+.warriors-homepage h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+
+.warriors-homepage {
+    max-width: 100%;
+    height: auto;
 }
