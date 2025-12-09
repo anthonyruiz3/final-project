@@ -28,6 +28,15 @@ body {
     width: 100%;
     height: 100vh;
 }
+.spacer-section {
+  background-color: black;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 video {
     position: absolute;
     top: 0;
@@ -79,13 +88,17 @@ body {
     background-repeat: no-repeat;
     padding: 50px 20px;
     min-height: 100vh;
-    margin-top: 100vh;
+    margin-top: 200vh;
 }
 
 .warriors-homepage h2 {
     font-size: 2em;
-    color: #333;
+    color: #fbf8f8;
     text-align: center;
+}
+
+.warriors-homepage p {
+  text-align: center;
 }
 
 .warriors-homepage {
