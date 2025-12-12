@@ -99,6 +99,7 @@ body {
 
 .warriors-homepage p {
   text-align: center;
+  color: white;
 }
 
 .warriors-homepage {
@@ -106,4 +107,49 @@ body {
     height: auto;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: red;
+  padding: 15px 0;
+  z-index: 100;
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px 0;
+  z-index: 100;
+  text-align: center;
+  opacity: 0; 
+  animation: showNav 1s ease-in forwards;
+  animation-delay: 9s;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #ffd700;
+}
+
+@keyframes showNav {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 
